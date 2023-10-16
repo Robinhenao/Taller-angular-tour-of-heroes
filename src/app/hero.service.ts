@@ -13,7 +13,7 @@ import { MessageService } from './message.service';
 })
 export class HeroService {
   
-  private heroesUrl = 'api/heroes';  // URL to web api
+  private heroesUrl = 'http://127.0.0.1:8080/tour-api/heroes';  // URL to web api
 
   httpOptions = {
     headers: new HttpHeaders({ 'Content-Type': 'application/json' })
